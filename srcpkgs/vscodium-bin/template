@@ -1,6 +1,6 @@
 # Template file for 'vscodium-bin'
 pkgname=vscodium-bin
-version=1.47.1
+version=1.47.2
 revision=1
 archs="x86_64"
 create_wrksrc=yes
@@ -10,7 +10,7 @@ maintainer="shizonic <realtiaz@gmail.com>"
 license="MIT"
 homepage="https://github.com/VSCodium/vscodium"
 distfiles="https://github.com/VSCodium/vscodium/releases/download/${version}/VSCodium-linux-x64-${version}.tar.gz"
-checksum=af21ac6c32c52d5ead27e07b7f30312707c1687d9fe289f8ecb4992ed76101ce
+checksum=c2c641e758a2b9eb4fcff19c6e77d0f2e7cbe219479dce95786f5dbb968f3899
 nostrip_files="codium"
 
 do_install() {
